@@ -1,0 +1,21 @@
+.greenrectangle{
+    width: 100% !important;
+    height: 40% !important;
+    background-image: linear-gradient(to right, #a5e887, #a0eda9, #a6efc5, #b6f0db, #ceefe8) !important;
+
+}
+
+.heroforcontact{
+    /*margin-top: 100px!important;*/
+}
+
+.formsection{
+    width: 50% !important;
+    height: 60% !important;
+    margin: auto !important;
+    background: gray;background: rgba( 248, 249, 249, 0.1 );
+    box-shadow: 0 8px 32px 0  #cacaca;
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+}
