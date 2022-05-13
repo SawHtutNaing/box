@@ -1,6 +1,6 @@
 .greenrectangle{
     width: 100% !important;
-    height: 40% !important;
+    height: 300px !important;
     background-image: linear-gradient(to right, #a5e887, #a0eda9, #a6efc5, #b6f0db, #ceefe8) !important;
 
 }
@@ -11,11 +11,25 @@
 
 .formsection{
     width: 50% !important;
-    height: 60% !important;
+    height: 400px !important;
     margin: auto !important;
     background: gray;background: rgba( 248, 249, 249, 0.1 );
     box-shadow: 0 8px 32px 0  #cacaca;
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 20px );
     border-radius: 10px;
+}
+
+
+.formbox{
+height: 300px !important;
+}
+
+/*Responsive*/
+
+/*mobile*/
+@media screen and (max-width:600px){
+    .formsection{
+        width: 70% !important;
+    }
 }
